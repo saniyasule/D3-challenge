@@ -6,11 +6,11 @@ var height = width * 3/4 ;
 var margin = 15;
 var labelArea = 115;
 var padding = 40;
-
 var svg = d3.select("#scatter")
     .append("svg")
     .attr("width", width)
     .attr("height", height)
+
     .attr("class", "chart");
 
 svg.append("g").attr("class", "xText");
